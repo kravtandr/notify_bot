@@ -32,17 +32,7 @@ function App() {
       </label>
       <ImageUpload />
 
-      
-      <select name="selectedFruit">
-        <option value="apple">Apple</option>
-        <option value="banana">Banana</option>
-        <option value="orange">Orange</option>
-      </select>
       <progress value={0.5} />
-      <select>
-        <option value="someOption">Some option</option>
-        <option value="otherOption">Other option</option>
-      </select>
       {/*  */}
       <div className="card">
         <button onClick={() => WebApp.showAlert(`Hello World! Current count is ${count}`)}>
