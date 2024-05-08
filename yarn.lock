@@ -323,17 +323,17 @@
     "@nodelib/fs.scandir" "2.1.5"
     "fastq" "^1.6.0"
 
-"@twa-dev/sdk@^6.7.1":
-  "integrity" "sha512-2ggfVTbbhDIk+5vBv47IPWSetvtkY5VGCP8dmKmP8BVkdW+i2cYgt4o5s4SabBpuq+2inr+7/Jb7M9srMlOtvw=="
-  "resolved" "https://registry.npmjs.org/@twa-dev/sdk/-/sdk-6.7.1.tgz"
-  "version" "6.7.1"
+"@twa-dev/sdk@^6.9.2":
+  "integrity" "sha512-xLqqtJfRtFyvM8arG8eoAtdY2GTdVzDdl64M3blHheY2OqON5QTG+WYUs5EZ+gPFXwxDxRCYTDbOJv1gycJqdA=="
+  "resolved" "https://registry.npmjs.org/@twa-dev/sdk/-/sdk-6.9.2.tgz"
+  "version" "6.9.2"
   dependencies:
-    "@twa-dev/types" "^6.7.0"
+    "@twa-dev/types" "^6.9.0"
 
-"@twa-dev/types@^6.7.0":
-  "integrity" "sha512-2QtS8oQeHkZvKAsTxqvFGdZOrR7Jc4N9rzJFEIj5e7lC5dqayIatSAh91qmGULjzxOd4sqyWqq1XF6DwZnwldQ=="
-  "resolved" "https://registry.npmjs.org/@twa-dev/types/-/types-6.7.0.tgz"
-  "version" "6.7.0"
+"@twa-dev/types@^6.9.0":
+  "integrity" "sha512-hBkIuJgVtkLAPPhKsNfgyBpgS+15spzUScy5jgpfPJPqXPaaUVDTaWHbeEUU+lUgHmryeQjWyz+UjS7987Pyaw=="
+  "resolved" "https://registry.npmjs.org/@twa-dev/types/-/types-6.9.0.tgz"
+  "version" "6.9.0"
 
 "@types/json-schema@^7.0.12":
   "integrity" "sha512-Hr5Jfhc9eYOQNPYO5WLDq/n4jqijdHNlDXjuAQkkt+mWdQR+XJToOHrsD4cPaMXpn6KO7y2+wM8AZEs8VpBLVA=="
