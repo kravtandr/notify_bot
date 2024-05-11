@@ -9,12 +9,16 @@ function App() {
 
   return (
     <>
-      <h1>Notify</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           Всего адресатов {count}
         </button>
       </div>
+      <label>
+        All: <input type="checkbox" name="myCheckbox" />
+        <input name="InputChatId"/>
+        <br />
+      </label>
       <label>
         ChatId: <input type="checkbox" name="myCheckbox" />
         <input name="InputChatId"/>
@@ -22,6 +26,41 @@ function App() {
       </label>
       <label>
         Имя содержит: <input type="checkbox" name="myCheckbox" /><input name="InputName" />
+        <br />
+      </label>
+      <label>
+        Balance: <input type="checkbox" name="myCheckbox" />
+        <input name="InputChatId"/><input name="InputChatId"/>
+        <br />
+      </label>
+      <label>
+        Date: <input type="checkbox" name="myCheckbox" />
+        <input name="InputChatId"/><input name="InputChatId"/>
+        <br />
+      </label>
+      <label>
+        Place: <input type="checkbox" name="myCheckbox" />
+        <input name="InputChatId"/>
+        <br />
+      </label>
+      <label>
+        Created: <input type="checkbox" name="myCheckbox" />
+        <input name="InputChatId"/><input name="InputChatId"/>
+        <br />
+      </label>
+      <label>
+        Updated: <input type="checkbox" name="myCheckbox" />
+        <input name="InputChatId"/><input name="InputChatId"/>
+        <br />
+      </label>
+      <label>
+        Born in Day: <input type="checkbox" name="myCheckbox" />
+        <input name="InputChatId"/>
+        <br />
+      </label>
+      <label>
+        Born in Month: <input type="checkbox" name="myCheckbox" />
+        <input name="InputChatId"/>
         <br />
       </label>
       <label>

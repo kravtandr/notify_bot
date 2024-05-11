@@ -16,11 +16,11 @@ const ImageUpload: React.FC = () => {
         setProgress(0);
       };
 
-      const upload = () => {
+      const notify = () => {
         setProgress(0);
         if (!currentImage) return;
     
-        UploadService.upload(currentImage, (event: any) => {
+        UploadService.notify(currentImage, (event: any) => {
           setProgress(Math.round((100 * event.loaded) / event.total));
         })
           .then((response) => {
@@ -61,7 +61,7 @@ const ImageUpload: React.FC = () => {
         <button
           className="btn btn-success btn-sm"
           disabled={!currentImage}
-          onClick={upload}
+          onClick={notify}
         >
           Upload
         </button>
