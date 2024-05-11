@@ -33,7 +33,7 @@ const notify = (file: File, onUploadProgress: any): Promise<any> => {
     formData.append("msg", "Test");
     formData.append("recipients", "398548347,398548347");
   
-    return http.post("/upload", formData, {
+    return http.post("/notify", formData, {
       headers: {
         "Content-Type": "multipart/form-data",
       },
